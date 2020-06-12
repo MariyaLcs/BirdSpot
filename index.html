@@ -3,6 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <title>BirdSpot</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
@@ -14,44 +27,56 @@
 
   <body>
     <section id="title">
-      <!-- Nav Bar -->
-      <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">BirdSpot</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="">Destinations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Experiences</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">My Plans</a>
-            </li>
-          </ul>
+      <div class="container">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand h1" href="">BirdSpot</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto h4">
+              <li class="nav-item">
+                <a class="nav-link" href="">Destinations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Experiences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">My Plans</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="title">The Best Birdwatching Spots nearby.</h1>
+            <button type="button" class="btn btn-dark btn-lg">
+              <i class="fab fa-apple"></i> Download
+            </button>
+            <button type="button" class="btn btn-outline-dark btn-lg">
+              <i class="fab fa-google-play"></i>
+              Download
+            </button>
+          </div>
+
+          <div>
+            <div class="col-lg-6">
+              <img src="images/iphone6.png" alt="iphone-mockup" />
+            </div>
+          </div>
         </div>
-      </nav>
-
-      <!-- Title -->
-
-      <div>
-        <h1>The Best Birdwatching Spots nearby.</h1>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
-      </div>
-      <div>
-        <img src="images/iphone6.png" alt="iphone-mockup" />
       </div>
     </section>
 
@@ -135,6 +160,7 @@
       <p>© Copyright 2020 BirdSpot</p>
     </footer>
 
+    <!-- Bootstrap Scripts -->
     <script
       src="http://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
