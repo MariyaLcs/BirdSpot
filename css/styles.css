@@ -1,3 +1,7 @@
+body {
+  font-family: "Montserrat";
+}
+
 .title {
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
@@ -6,4 +10,32 @@
 
 #title {
   background-color: #725b7146;
+}
+
+/* Navigation Bar */
+#navbar_brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  padding: 0;
+}
+
+/* Title Image */
+
+.title_image1 {
+  width: 95%;
+  height: 50vh;
+  padding-left: 0;
+  transform: rotate(-10deg);
+}
+.title_image2 {
+  width: 95%;
+  height: 50vh;
+  padding-left: 0;
+  transform: rotate(-10deg);
+}
+.title_image3 {
+  width: 95%;
+  height: 50vh;
+  padding-left: 0;
+  transform: rotate(10deg);
 }
