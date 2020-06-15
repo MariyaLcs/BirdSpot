@@ -4,7 +4,7 @@ body {
 
 p {
   color: #071f0f;
-  font-size: large;
+  font-size: 1.75rem;
 }
 
 .title {
@@ -67,4 +67,33 @@ p {
 
 .icon:hover {
   color: #251f2546;
+}
+
+/* Testimonial Section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #cac4ce;
+}
+
+.testimonial-text {
+  font-size: 1.75rem;
+  line-height: 1.5;
+}
+
+.testimonials_img {
+  width: 25%;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+#press {
+  background-color: #cac4ce;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
 }
