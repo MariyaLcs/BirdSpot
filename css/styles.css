@@ -2,6 +2,11 @@ body {
   font-family: "Montserrat";
 }
 
+p {
+  color: #071f0f;
+  font-size: large;
+}
+
 .title {
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
@@ -19,7 +24,7 @@ body {
   padding: 0;
 }
 
-/* Title Image */
+/* Title Images */
 
 .title_image1 {
   width: 95%;
@@ -38,4 +43,28 @@ body {
   height: 50vh;
   padding-left: 0;
   transform: rotate(10deg);
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.title_features {
+  font-family: "Montserrat", sans-serif;
+}
+
+.icon {
+  color: #725b71b7;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #251f2546;
 }
