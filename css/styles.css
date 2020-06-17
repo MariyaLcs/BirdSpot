@@ -8,13 +8,15 @@ p {
 }
 
 .title,
-.section-heading {
+.section-heading,
+.big-heading {
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   line-height: 1.5;
 }
 
-#title {
+#title,
+#cta {
   background-color: #725b7146;
 }
 
